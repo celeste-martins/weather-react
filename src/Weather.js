@@ -64,6 +64,14 @@ export default function Weather() {
               <li>Humidity: {weatherData.humidity}%</li>
               <li>Wind: {weatherData.wind} km/h</li>
             </ul>
+            <div>
+              <footer>
+                <a href="https://github.com/celeste-martins/weather-react">
+                  Open-source code
+                </a>{" "}
+                by Celeste Martins
+              </footer>
+            </div>
           </div>
         </div>
       </div>
