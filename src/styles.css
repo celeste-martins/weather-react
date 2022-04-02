@@ -1,0 +1,132 @@
+:root {
+  --primary-color: #7c73e6;
+  --secondary-color: #27296e;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  color: #7c73e6;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-weight: 100;
+  color: var(--primary-color);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/*Containers*/
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Weather {
+  padding: 30px 30px 0px 30px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background: radial-gradient(
+    circle at 0.8% 3.1%,
+    rgb(255, 188, 224) 0%,
+    rgb(170, 165, 255) 46%,
+    rgb(165, 255, 205) 100.2%
+  );
+}
+
+.App {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+/*Navigation*/
+
+.city-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  background-color: #fff;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+.seach-button {
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  color: white;
+  border-color: var(--secondary-color);
+}
+
+.seach-button:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+/*City and Time*/
+
+.overview {
+  padding: 50px 0px 0px;
+}
+
+/*Actual Temperature*/
+
+.actual-temperature strong {
+  font-size: 60px;
+  padding-left: 5px;
+  color: #27296e;
+}
+
+.actual-temperature {
+  padding: 10px 10px;
+}
+
+.units a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 24px;
+}
+
+/*Weather Description*/
+
+.weather-img {
+  padding: 30px 10px 30px 10px;
+  float: left;
+  width: 100px;
+  height: auto;
+}
+
+.wind-humidity {
+  padding: 30px 10px 30px 10px;
+  float: right;
+  margin-left: 20px;
+  color: var(--secondary-color);
+}
